@@ -59,11 +59,6 @@ void originalSort(int *mass, int n)
     }
 
 }
-int * initArray(int* array,const int n)
- {
-  array=(int*)calloc(sizeof(int*),n);
- return array;
- }
 
 int main() {
     int n;
@@ -72,8 +67,7 @@ int main() {
     printf( "n = ");
     scanf("%d",&n);//cin >> n;
     arr = (int*)malloc(n * sizeof(int));//int* arr = new int[n];
-    initArray(arr, n);
-    
+     
     
     printf("Enter an array:\n");
     for (int i = 0; i < n; i++)
@@ -102,10 +96,6 @@ int main() {
       printf("%4d ", a[i]);
       printf("\n");
     //  getchar();
-
-
-
-
 
     return 0;
 }
