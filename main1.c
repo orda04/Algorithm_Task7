@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-//#include <iomanip>
-//#include <vcl.h>
-//#include <cstdlib>
 
-#define SIZE 20
+
+
 #define SZ 10  // for blocks arr
 
 
